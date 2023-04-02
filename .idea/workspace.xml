@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90f7ffc6-35e2-47e4-9f6b-283119f0610f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prob2/CrispyFlour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prob2/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prob2/MaterialManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prob2/Meat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prob2/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prob1/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prob1/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prob1/FictionBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prob1/FictionBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prob1/ProgrammingBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prob1/ProgrammingBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prob1/TestBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prob1/TestBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTestWeek2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTestWeek2.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,14 +41,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -56,11 +66,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680405238965</updated>
-      <workItem from="1680405240161" duration="5941000" />
+      <workItem from="1680405240161" duration="16697000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Prob2/CrispyFlour.java</url>
+          <line>34</line>
+          <properties class="Prob2.CrispyFlour" method="getRealMoney">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="LocalDate.now().isAfter(getExpiryDate().minusMonths(2))" language="JAVA" />
+        <watch expression="LocalDate.now()" language="JAVA" />
+        <watch expression="getExpiryDate().minusMonths(2)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
