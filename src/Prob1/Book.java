@@ -1,7 +1,8 @@
 package Prob1;
 
 public class Book {
-    long bookCode;
+    private static long bookCount = 0;
+    long bookCode = bookCount;
     String name;
     double price;
     String author;
@@ -39,11 +40,13 @@ public class Book {
     }
 
     public Book() {
+        bookCount++;
     }
 
     public Book(String name, double price, String author) {
         this.name = name;
         this.price = price;
         this.author = author;
+        bookCount++;
     }
 }

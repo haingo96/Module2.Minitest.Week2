@@ -12,6 +12,7 @@ public class FictionBook extends Book{
     }
 
     public FictionBook() {
+        super();
     }
 
     public FictionBook(String name, double price, String author) {

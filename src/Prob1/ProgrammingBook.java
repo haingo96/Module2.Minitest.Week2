@@ -21,6 +21,7 @@ public class ProgrammingBook extends Book{
     }
 
     public ProgrammingBook() {
+        super();
     }
 
     public ProgrammingBook(String name, double price, String author) {

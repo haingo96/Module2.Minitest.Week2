@@ -56,5 +56,9 @@ public class TestBook {
         System.out.println(sumBookPrice);
         System.out.println(countFiction1);
         System.out.println(countPriceLessThan100);
+
+        for (Book book : bookCollection) {
+            System.out.println(book.getBookCode());
+        }
     }
 }
