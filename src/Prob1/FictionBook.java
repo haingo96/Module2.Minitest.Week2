@@ -11,6 +11,9 @@ public class FictionBook extends Book{
         this.category = category;
     }
 
+    public FictionBook() {
+    }
+
     public FictionBook(String name, double price, String author) {
         super(name, price, author);
     }

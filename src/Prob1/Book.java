@@ -1,17 +1,17 @@
 package Prob1;
 
 public class Book {
-    private static long bookCode;
-    private String name;
-    private double price;
-    private String author;
+    long bookCode;
+    String name;
+    double price;
+    String author;
 
-    public static long getBookCode() {
+    public long getBookCode() {
         return bookCode;
     }
 
-    public static void setBookCode(long bookCode) {
-        Book.bookCode = bookCode;
+    public void setBookCode(long bookCode) {
+        this.bookCode = bookCode;
     }
 
     public String getName() {
